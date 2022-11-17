@@ -338,13 +338,13 @@ h1 {
 
     border-radius: 5px;
 
-    background-color: #254975;
+    background-color: #ffff;
     border: 3px solid #254975;
     box-shadow: 0px 0px 10px #959da533;
     font-family:'Inter', sans-serif;
     font-weight: 600;
     font-size: 17px;
-    color: white;
+    color: #254975;
     cursor: pointer;
     transition: all 200ms 0ms;
 }
@@ -413,8 +413,9 @@ footer {
     width: 90%;
     height: 35px;
 
-    background-color: #282922;
+    background-color: #254975;
     border: 3px solid #282922;
+    color: #ffff;
 }
 
 #li_home_page:hover {
