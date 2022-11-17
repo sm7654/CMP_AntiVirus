@@ -65,8 +65,9 @@ nav {
     
     border-radius:12px;
     
-    background-color:#254975;
-    color: white;
+    background-color:#ffff;
+    color: #254975;
+    border: 3px solid #254975;
 
     transition: all 200ms 0ms;
 }
@@ -420,7 +421,8 @@ footer {
 
 #li_home_page:hover {
     padding: 10px;
-    background-color: #282922;
+    background-color: #254975;
+    color: #ffff;
 }
 
 
