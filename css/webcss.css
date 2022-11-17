@@ -346,6 +346,7 @@ h1 {
     font-size: 17px;
     color: white;
     cursor: pointer;
+    transition: all 200ms 0ms;
 }
 
 .fa-solid{
@@ -367,6 +368,7 @@ h1 {
 
     font-size: 13px;
 }
+
 
 
 footer {
