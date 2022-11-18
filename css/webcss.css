@@ -16,6 +16,7 @@ body {
     text-align: center;
 
     background-color: aliceblue;
+
 }
 
 header {
@@ -121,7 +122,7 @@ h1 {
 }
 
 .hacker_blocker section p {
-    margin-top: 50px;
+    margin-top: 36px;
 
     
     font-family: monospace;
@@ -199,6 +200,7 @@ h1 {
 }
 
 .AI section p {
+    margin-top: 36px;
     text-align: left;
     font-size: 27px;
     font-family: monospace;
@@ -215,6 +217,14 @@ h1 {
 
 .div_ai img {
     width: 100%;
+}
+
+
+
+
+.hello {
+    font-weight:700; 
+    font-size: 40px;
 }
 
 
@@ -396,17 +406,12 @@ footer {
     list-style: none;
 }
 
-#hello {
-    width: 113px;
-    height: 35px;
-    position: absolute;
-    left: 20px;
-    z-index: 3;
-}
+
 
 .social_media{
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 /*hovers*/
 
@@ -499,6 +504,20 @@ footer {
         display: grid;
         place-items: center;
         text-align: center;
+    }
+
+    .hello {
+        font-size: 27px;
+    }
+    .cyber_alert section p {
+        font-size: 18px;
+    }
+
+    .hacker_blocker section p {
+        font-size: 18px;
+    }
+    .AI section p {
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 410px) {
