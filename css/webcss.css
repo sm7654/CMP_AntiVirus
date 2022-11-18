@@ -59,6 +59,11 @@ nav {
     color: black;
     list-style: none;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.ul_haeder a {
+    text-decoration: none;
 }
 
 #li_home_page {
