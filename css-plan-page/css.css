@@ -1,0 +1,560 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: midnightblue;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    margin: 0px;
+
+    text-align: center;
+
+    background-color: aliceblue;
+}
+
+
+
+header {
+    width: 100%;
+    height: 57px;
+
+    display: grid;
+
+
+}
+
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: start;
+}
+
+.ul_haeder {
+    width: 100%;
+    height: 57px;
+
+    margin: 0%;
+    padding: 0%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+    opacity: 0.96;
+    position: fixed;
+}
+
+.ul_haeder li {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ul_haeder a {
+    text-decoration: none;
+}
+
+#li_plan_page {
+    padding: 12px;
+    
+    border-radius:12px;
+    
+    background-color:#ffff;
+    color: #254975;
+    border: 3px solid #254975;
+
+    transition: all 200ms 0ms;
+}
+
+
+.ul_haeder img {
+    width: 113px;
+    height: 35px;
+    position: absolute;
+    left: 20px;
+    z-index: 3;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+}
+
+
+.plans_cards {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    gap: 100px;
+}
+
+.payment_plan_card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.card_plan {
+    width: 38%;
+    height: 580px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    background-color: white;    
+    box-shadow: 0px 8px 24px #959da533;
+}
+
+.top_part_card {
+    padding-top: 16px;
+    height: 190px;
+    font-family:'Inter', sans-serif;
+}
+
+.plan_type_common{
+    width: 100%;
+
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plan_type {    
+    margin: 0%;
+    font-size: 25px;
+
+    text-align: left;
+    color: black;
+}
+
+.plan_card_top {
+    margin: 0px;
+    padding-left: 25px;
+
+    text-align: left;
+}
+
+    
+.popular {
+    width: 110px;
+    height: fit-content;
+
+    padding: 3px;
+
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+
+    box-shadow: 0px 10px 10px #959da533;
+
+    background-color: #254975;
+    color: white;
+    font-weight: 600;
+
+    cursor: default;
+}
+
+
+
+.price {
+    width: 100%;
+    height: fit-content;
+    font-size: 40px;
+
+    padding-left: 25px;
+    padding-top: 10px;
+
+    display: flex;
+
+    font-weight: 700;
+    color: black;
+}
+
+.price p {
+    width: 100px;
+
+    margin: 0px;
+    padding-left: 15px;
+
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    color: black;
+}
+
+.plan_offers {
+    margin: 0px;
+    margin-top: 16px;
+    padding-left: 25px;
+    padding-bottom: 45px;
+
+    font-size: 13px;
+    text-align: left;
+    color: #282922;
+}
+
+
+.fa-solid{
+    padding: 13px;
+    padding-right: 8px;
+    padding-left: 25px;
+
+    color: green;
+}
+
+
+.label_plan_offer {
+    width: 100%;
+    display: block;
+    margin: 11px 0px 11px 0px;
+
+    font-size: 13px;
+}
+
+.payment {
+    width: 38%;
+    height: 580px;
+    border-left: 2px solid #0277bd;
+    text-align: left;
+    background-color: white;
+}
+
+.payment_h2 {
+    display: flex;
+    align-items: center;
+}
+
+.payment_h2 h2 {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+}
+.payment_h2 img {
+    padding-right: 20px;
+}
+
+.email {
+    width: 100%; 
+    height: fit-content;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.email p { 
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.input_email {
+    width: 70%;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+.input_email:focus {
+    outline: 1px solid #0277bd;
+}
+
+
+
+.card_number {
+    width: 100%; 
+    height: fit-content;
+    padding-left: 20px;
+}
+
+.card_number p { 
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.input_Card_number {
+    width: 70%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+.input_Card_number:focus {
+    outline: 1px solid #0277bd;
+}
+
+
+.expiration_date {
+    width: 100%; 
+    height: fit-content;
+    padding-left: 20px;
+}
+
+.expiration_date p { 
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.expiration_date_selection {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.Month_select {
+    width: 23.5013%;
+    height: 35px;
+    border-radius: 3px;
+    color: grey;
+}
+
+.year_select {
+    width: 23.5013%;
+    height: 35px;
+    border-radius: 3px;
+    color: grey;
+}
+
+.CVV {
+    width: 23.5013%;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+.CVV:focus {
+    outline: 1px solid #0277bd;
+}
+
+.payment_mathod {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.payment_mathod img {
+    height: 19px;
+}
+
+
+.Get_the_plan {
+    width: 92.166217%;
+    height: 27px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid #254975;
+    color: #254975;
+    transition: all 200ms 0ms;
+    cursor: pointer;
+}
+.Get_the_plan:hover {
+    width: 94%;
+    height: 30px;
+    background-color: #254975;
+    color: white;
+}
+.Get_the_plan:active {
+    width: 90%;
+    height: 25px;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 75px;
+    margin-top: 150px;
+    position: relative;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    background-color:#282922;
+}
+
+
+.ul_footer {
+    width: 100%;
+
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul_footer li {
+    list-style: none;
+}
+
+
+
+.social_media{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+/*hovers*/
+
+.perchuse:hover {
+    width: 90%;
+    height: 35px;
+
+    background-color: #254975;
+    border: 3px solid #254975;
+    color: white;
+}
+
+#li_plan_page:hover {
+    padding: 10px;
+    background-color: #254975;
+    color: #ffff;
+}
+
+@media only screen and (max-width:926px){
+    .email {
+        padding-left: 10px;
+    }
+    .expiration_date {
+        padding-left: 10px;
+    }
+    .card_number {
+        padding-left: 10px;
+    }
+    .payment_h2 {
+        padding: 0px;
+    }
+    .payment_h2 h2 {
+        padding-left: 10px;
+    }
+    .payment_mathod {
+        margin-left: 10px;
+    }
+    .Get_the_plan {
+        margin-left: 10px;
+    }
+    .fa-solid {
+        padding-left: 8px;
+    }
+}
+    
+@media only screen and (max-width: 876px){
+    .payment {
+        width: 44%;
+    }
+    .card_plan {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 826px){
+    .ul_haeder img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 826px){
+    .input_email{
+        width: 80%;
+    }
+    .input_Card_number{
+        width: 80% ;
+    }
+    .Month_select{
+        width: 26.5%;
+    }
+    .year_select {
+        width: 26.5%;
+    }
+    .CVV{
+        width: 26.5%;
+    }
+    .payment_mathod img {
+        height: 17px;
+    }
+}
+@media only screen and (max-width:640px){
+    .plan_offers {
+        padding-left: 10px;
+    }
+    .price {
+        padding-left: 10px;
+    }
+    .plan_type_common {
+        padding-left: 10px;
+    }
+    .label_plan_offer {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:640px){
+    .payment_plan_card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_plan {
+        width: 95%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 13px;
+    }
+    .payment {
+        width: 95%;
+        border-left: none;
+        border-top: 2px solid #0277bd;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    .top_part_card {
+        border-bottom: 3px solid aliceblue;
+    }
+    .label_plan_offer {
+        font-size: 13px;
+    }
+    .fa-solid{
+        padding: 13px;
+        padding-right: 8px;
+        padding-left: 25px;
+    }
+    .plan_offers {
+        padding-left: 25px;
+    }
+    .price {
+        padding-left: 25px;
+    }
+    .plan_type_common {
+        padding-left: 25px;
+    }
+}
