@@ -375,18 +375,18 @@ nav {
     margin-left: 20px;
     margin-top: 15px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 15px;
     background-color: white;
-    border: 2px solid #254975;
-    color: #254975;
+    border: 2px solid #001737;
+    color: #001737;
     transition: all 200ms 0ms;
     cursor: pointer;
 }
 .Get_the_plan:hover {
     width: 94%;
     height: 30px;
-    background-color: #254975;
+    background-color: #001737;
     color: white;
 }
 .Get_the_plan:active {
