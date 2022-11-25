@@ -282,7 +282,10 @@ h1 {
 .plan_card_top {
     margin: 0px;
     padding-left: 25px;
-
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
 }
 
