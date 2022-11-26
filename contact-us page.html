@@ -9,7 +9,7 @@
     <title>Computer Malware Protaction | Contact Us</title>
 </head>
 <body>
-    <div style="position:absolute;">
+    <div>
         <header>
             <nav>
                 <ul class="ul_haeder">
@@ -23,33 +23,61 @@
         </header>
     </div>
 
-        <section>
-            <div class="container">
-                <div class="form" style="padding:15px;">
-                    <form>
-                        <p style="font-size: 40px; font-weight: 500;">Contact Us</p>
-                        <div class="all_input_class">
-                            <p>Name</p>
-                            <input class="input" type="text" placeholder="Enter Your Full Name" required>
-                        </div> 
-                        <div class="all_input_class">
-                            <p>Email Address</p>
-                            <input class="input" type="email" placeholder="Enter Your Email" required>
-                        </div> 
-                        <div class="all_input_class">
-                            <p>Phone Number</p>
-                            <input class="input" type="tel" placeholder="Enter Your Phone Number" required>
-                        </div> 
-                        <div class="all_input_class" id="textaria">
-                            <p>What Do You Wnat To Tell Us</p>
-                            <textarea class="input" type="tel" placeholder="Enter Your Phone Number" style="border: 1px solid grey; height: 120px; width: 80%; max-width: 80%; max-height: 120px;"></textarea>
-                        </div>
-                        <button type="submit" class="sent">Let's Go</button>
-                        
-                    </form>
+    <main>
+        <section class="section">
+            <form class="contact">
+                <img src="./images/contact-form (1).png" style="width: 50px; height: 50px;">
+                <h1>Contact Us</h1>
+                <p>Any Problams? Enter Your Details And We Will Be Back As Fast As Possible.</p>
+
+                <div class="div_input_and_text">
+                    <p>First Name</p>
+                    <input class="input" type="text" placeholder="Enter Your First Name" required>
                 </div>
-            </div>
+
+                
+                <div class="div_input_and_text">
+                    <p>Last Name</p>
+                    <input class="input" type="text" placeholder="Enter Your last Name" required>
+                </div>
+
+                        
+                <div class="div_input_and_text">
+                    <p>Email</p>
+                    <input class="input" type="email" placeholder="Enter Your Email" required>
+                </div>
+
+                        
+                <div class="div_input_and_text">
+                    <p>Phone Number (optional)</p>
+                    <input class="input" type="text" placeholder="Enter Your Phone Number">
+                </div>
+
+                <div class="div_input_and_text">
+                    <p>What Do You Want To Ask?</p>
+                    <select class="input" required>
+                        <option value="" hidden>Popular Asked Questions</option>
+                        <option class="question" value="1">Having Issues With My Order</option>
+                        <option class="question" value="2">Where Can I Find My Order?</option>
+                        <option class="question" value="3">I Would Like To Change My Order</option>
+                        <option class="question" value="4">I Would Like To Cancel My Order</option>
+                        <option class="question" value="5">I Have A Question About The One Of The Plans</option>
+                        <option class="question" value="6">Having Problams With My Installation</option>
+                        <option class="question" value="7">How Can I Update My AntiVirus?</option>
+                        <option class="question" value="8">I Can't Update My AntiVirus</option>
+                        <option class="question" value="9">Other</option>
+                    </select>
+                </div>
+
+                <div class="div_input_and_text">
+                    <p>Tell Us More About Your Problam</p>
+                    <textarea class="textarea"></textarea>
+                </div>
+
+                <button class="button" type="submit">Send</button>
+            </form>
         </section>
+    </main>
 
         <footer>
             <ul class="ul_footer">
