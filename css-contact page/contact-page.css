@@ -13,6 +13,9 @@ body {
 
     margin: 0px;
 
+    display: grid;
+    align-content: space-between;
+
     text-align: center;
 
     background-color: aliceblue;
